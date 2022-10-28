@@ -1,0 +1,5 @@
+// "react-bootstrap-table-next": "^4.0.3",
+// "reactstrap": "^8.9.0",
+// "react-bootstrap-table2-filter": "^1.3.3",
+// "bootstrap": "^5.0.1",
+// "react": "^17.0.2",

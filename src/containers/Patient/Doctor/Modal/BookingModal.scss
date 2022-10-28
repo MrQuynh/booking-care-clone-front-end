@@ -1,0 +1,66 @@
+.booking-container{
+    
+   .booking-content{
+        max-height: 80vh;
+        overflow-y: scroll;
+        .booking-header{
+            position: absolute;
+            background-color: white;
+            top: 0;right: 0;left: 0;
+            height: 50px;
+            // background-color: #0d6efd;
+            border-bottom: 1px solid rgba(22,24,24,0.12);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            font-size: 18px;
+            font-weight: 600;
+
+            i{
+                font-size: 20px;
+                &:hover{
+                    cursor: pointer;
+                    opacity: 0.9;
+                }
+            }
+        }
+        .info-doctor{
+            margin: 60px 20px 10px;
+            .info{
+                display: flex;
+                align-items: center;
+                img{
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                    margin-right: 10px;
+                }
+            }
+        }
+        .booking-body{
+            
+        }
+        .booking-footer{
+            // height: 40px;
+            color: white;
+            
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            
+            padding:10px  20px;
+            border-top: 1px solid rgba(22,24,24,0.12);
+            button{
+                color: white;
+                margin-left: 10px;
+            }
+            .btn:last-child{
+                background-color: gray;
+                &:hover{
+                    opacity: 0.9;
+                }
+            }
+        }
+    }
+}

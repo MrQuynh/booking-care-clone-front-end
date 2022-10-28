@@ -1,0 +1,93 @@
+.wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+@keyframes fadeIn {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(100%);
+        opacity: 100%;
+    }
+}
+.body {
+    width: 800px;
+    background-color: var(--bg-color);
+    border-radius: 6px;
+    position: relative;
+    box-shadow: 0 1px 5px rgba(236, 94, 11, 0.5);
+    margin: auto;
+    animation: fadeIn linear 0.2s;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 30px;
+    position: relative;
+    
+}
+.form-row{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.form-group{
+    margin-top: 8px;
+    // margin-right: 8px;
+    width: 49%;
+    
+
+}
+.full{
+    width: 100%;
+}
+
+.label{
+    background-color: rgb(13,110,253);
+    position: absolute;
+    top: 0;
+    left: 0;right: 0;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+}
+.icon-close{
+    position: absolute;
+    z-index: 5;
+    top: 15px;
+    right: 21px;
+    font-size: 2rem;
+    color: white;
+    &:hover{
+        opacity: 0.9;
+        cursor: pointer;
+    }
+}
+.container{
+    margin-top: 70px;
+}
+
+.options{
+    margin-top: 8px;
+    width: 49%;
+    display: flex;justify-content: space-between;
+}
+.form-group1{width: 49%;}
+.btn-submit{
+    margin-top: 40px;
+    float: right;
+}

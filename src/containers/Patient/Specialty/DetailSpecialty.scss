@@ -1,0 +1,82 @@
+.s-container{
+    width: 100%;
+    overflow-y:scroll ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .info-specialty{
+        width: 1170px;
+        padding: 0 8px;
+        margin: 20px 0;
+        .s-title{
+            font-size: 20px;
+        font-weight: bold;
+        }
+        
+    }
+    .list-doctor-container{
+            background-color: #eeeeee;
+            width: 100%;
+            display: flex;
+            
+            flex-direction: column;
+            align-items: center;
+        .list-doctors{
+            background-color: #eeeeee;
+            max-width: 1170px;
+            
+            padding: 20px 8px;
+            margin: 0;
+            position: relative;
+            .location{
+                background-color: #fff;
+                padding: 8px 10px;
+                display: inline-block;
+                border-radius: 4px;
+                &:hover{
+                    cursor: pointer;
+                }
+                
+            }
+            .doctor-item{
+                max-width: 1170px;
+                background-color: #fff;
+                box-shadow: 0 1px 6px rgba(32, 33 ,36 ,0.12);
+                border-radius: 8px;
+                border-bottom: none;
+                margin-bottom: 10px;
+            }
+    }}
+}
+.more-question{
+    background-color: #006e6f;
+    padding: 15px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    div{
+        width: 1170px;
+        display: flex;
+        align-items: center;
+        
+        p{
+            margin: 0 8px;
+            color: #FFF04B;
+            font-weight: bold;
+            &:hover{
+                cursor: pointer;
+            }
+           
+        }
+    }
+}
+@media (max-width:1150px){
+    .s-container{
+    .info-specialty{
+        // width: 100%;
+        width: auto;
+
+        padding: 0 10px;
+    }}
+}

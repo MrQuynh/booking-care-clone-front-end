@@ -1,0 +1,62 @@
+.c-container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    .c-image{
+        height: 190px;
+        width: 100%;
+        object-fit: cover;
+        background-clip: border-box;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .c-avatar{
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+        img{
+            width: 80px;height: 80px;
+            border-radius: 50%;
+        }
+        .info-clinic{
+            margin-left: 8px;
+            .c-name{
+                line-height: 1.3em;
+                font-size: 20px;
+                font-weight: 500;
+               
+            }
+            .c-address{
+                color: #333;
+                i{
+                    margin-right: 6px;
+                }
+            }
+        }
+    }
+    .c-header{
+        display: flex;
+        padding: 6px;
+        justify-content: center;
+        p{
+            margin: 0 24px;
+            padding: 10px 12px;
+            color: #666;
+            display: inline-block;
+            letter-spacing: -1px;
+            text-transform: uppercase;
+        }
+        
+    }
+    .c-content{
+        margin: 20px 0;
+        .c-title{
+            padding: 12px 0;
+            margin: 0 0 12px;
+            font-weight: bold;
+            color: #337ab7;
+            border-bottom: 1px solid #eee;
+        }
+    }
+}
